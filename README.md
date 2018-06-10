@@ -22,47 +22,47 @@ Na powyższym rysunku przedstawiony został model obliczeniowy ćwiartkowego, pa
 
 ### Wykres siły od przemieszczenia
 
-![](./Python/img/sila_od_przemieszczenia.png)&nbsp;
+![](./Python/img/sila_od_przemieszczenia.PNG)&nbsp;
 
 ### Wykres pracy od częstotliwości wymuszczenia
 
-![](./Python/img/praca.png)&nbsp;
+![](./Python/img/praca.PNG)&nbsp;
 
 ### Wykres siły od prędkości
 
-![](./Python/img/sila_od_predkosci.png)&nbsp;
+![](./Python/img/sila_od_predkosci.PNG)&nbsp;
 
 ### Aproksymacja siły od prędkości
 
-![](./Python/img/sila_od_predkosci_aproksymacja.png)&nbsp;
+![](./Python/img/sila_od_predkosci_aproksymacja.PNG)&nbsp;
 
 ## Charakterystyki dynamiczne
 
 ### Funkcje przenoszenia drgań
 
-![](./Python/img/funkcje_przenoszenia_drgan.png)&nbsp;
+![](./Python/img/funkcje_przenoszenia_drgan.PNG)&nbsp;
 
 ### Przemieszczeniowa funkcja przenoszenia drgań masy wibroizolowanej 
 
-![](./Python/img/Fzs.png)&nbsp;
-![](./Python/img/Fzs_wykres.png)&nbsp;
+![](./Python/img/Fzs.PNG)&nbsp;
+![](./Python/img/Fzs_wykres.PNG)&nbsp;
 
 ### Przyspieszeniowa funkcja przenoszenia drgań masy wibroizolowanej 
 
-![](./Python/img/Fzbiss.png)&nbsp;
-![](./Python/img/Fzbiss_wykres.png)&nbsp;
+![](./Python/img/Fzbiss.PNG)&nbsp;
+![](./Python/img/Fzbiss_wykres.PNG)&nbsp;
 
 ### Przemieszczeniowa funkcja przenoszenia drgań masy niewibroizolowanej 
 
-![](./Python/img/Fzw.png)&nbsp;
-![](./Python/img/Fzw_wykres.png)&nbsp;
+![](./Python/img/Fzw.PNG)&nbsp;
+![](./Python/img/Fzw_wykres.PNG)&nbsp;
 
 ### Funkcja przenoszenia drgań ugięcia zawieszenia 
 
-![](./Python/img/Fzszw.png)&nbsp;
-![](./Python/img/Fzszw_wykres.png)&nbsp;
+![](./Python/img/Fzszw.PNG)&nbsp;
+![](./Python/img/Fzszw_wykres.PNG)&nbsp;
 
 ### Funkcja przenoszenia drgań ugięcia opony
 
-![](./Python/img/Fzww.png)&nbsp;
-![](./Python/img/Fzww_wykres.png)&nbsp;
+![](./Python/img/Fzww.PNG)&nbsp;
+![](./Python/img/Fzww_wykres.PNG)&nbsp;
