@@ -16,22 +16,53 @@ Drugim etapem pracy jest zamodelowanie testowanych układów oraz przeprowadzeni
 
 Na powyższym rysunku przedstawiony został model obliczeniowy ćwiartkowego, pasywnego układu zawieszenia pojazdu kołowego. Przyjęto oznaczenia:
 
-- $m_s - $ masa wibroizolowana
-- $m_t - $ masa niewibroizolowana
-- $z_s - $ przemieszczenie masy wibroizolowanej
-- $z_t - $ przemieszczenie masy niewibroizolowanej
-- $z_w - $ wymuszenie
-- $k_s - $ współczynnik sprężystości zawieszenia
-- $k_t - $ współczynnik sprężystości opony
-- $c_s - $ nieliniowy element tłumiący zawieszenia
-- $c_t - $ współczynnik tłumienia opony
+![](./Python/img/Cwiartkowy_model_rownania.png)&nbsp;
 
-Równania równowagi sił dla każdej z mas:
-$$
-\begin{equation}
-m_t\ddot{z}_t + F_c(\dot{z}_t - \dot{z}_s) + k_s(z_t - z_s) + c_t(\dot{z}_t - \dot{z}_w) + k_t(z_t - z_w) = 0 \\
-m_s\ddot{z}_s + F_c(\dot{z}_s - \dot{z}_t) + k_s(z_s - z_t) = 0
-\end{equation}
-$$
+## Charakterystyki statyczne
 
- 
+### Wykres siły od przemieszczenia
+
+![](./Python/img/sila_od_przemieszczenia.png)&nbsp;
+
+### Wykres pracy od częstotliwości wymuszczenia
+
+![](./Python/img/praca.png)&nbsp;
+
+### Wykres siły od prędkości
+
+![](./Python/img/sila_od_predkosci.png)&nbsp;
+
+### Aproksymacja siły od prędkości
+
+![](./Python/img/sila_od_predkosci_aproksymacja.png)&nbsp;
+
+## Charakterystyki dynamiczne
+
+### Funkcje przenoszenia drgań
+
+![](./Python/img/funkcje_przenoszenia_drgan.png)&nbsp;
+
+### Przemieszczeniowa funkcja przenoszenia drgań masy wibroizolowanej 
+
+![](./Python/img/Fzs.png)&nbsp;
+![](./Python/img/Fzs_wykres.png)&nbsp;
+
+### Przyspieszeniowa funkcja przenoszenia drgań masy wibroizolowanej 
+
+![](./Python/img/Fzbiss.png)&nbsp;
+![](./Python/img/Fzbiss_wykres.png)&nbsp;
+
+### Przemieszczeniowa funkcja przenoszenia drgań masy niewibroizolowanej 
+
+![](./Python/img/Fzw.png)&nbsp;
+![](./Python/img/Fzw_wykres.png)&nbsp;
+
+### Funkcja przenoszenia drgań ugięcia zawieszenia 
+
+![](./Python/img/Fzszw.png)&nbsp;
+![](./Python/img/Fzszw_wykres.png)&nbsp;
+
+### Funkcja przenoszenia drgań ugięcia opony
+
+![](./Python/img/Fzww.png)&nbsp;
+![](./Python/img/Fzww_wykres.png)&nbsp;
