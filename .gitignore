@@ -1,0 +1,6 @@
+*.tdms
+*.tdms_index
+*.xlsx
+*.vsd
+
+Python/.ipynb_checkpoints/*.*
